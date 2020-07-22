@@ -4,7 +4,7 @@ session_start();
 
 if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 {
-    header("location: /PHP_Login_System/login.php");
+    header("location: login.php");
 }
 
 
@@ -35,19 +35,19 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/PHP_Login_System/about.php">About</a>
+        <a class="nav-link" href="about.php">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/PHP_Login_System/contact.php">Contact Us</a>
+        <a class="nav-link" href="contact.php">Contact Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/PHP_Login_System/register.php">Register</a>
+        <a class="nav-link" href="register.php">Register</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/PHP_Login_System/login.php">Login</a>
+        <a class="nav-link" href="login.php">Login</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/PHP_Login_System/logout.php">Logout</a>
+        <a class="nav-link" href="logout.php">Logout</a>
       </li>
 
       
